@@ -1,0 +1,233 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.nav-wrapper{
+    width: 100%;
+    height: 70px;
+    margin-top: 0px;
+    padding-top: 0%;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+
+/* navigation left column styles */
+
+.nav-wrapper > .nav-left-column {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    align-content: center; 
+}
+
+
+.nav-wrapper > .nav-left-column img{
+    width: 200px;
+    height: 50%;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    align-content: center; 
+}
+
+/* navigation center column styles */
+
+.nav-wrapper > .nav-center-column {
+    width: 330px;
+    margin-left: 10px;
+    padding-left: 0%;
+}
+
+.nav-wrapper > .nav-center-column > .explore-wrapper{
+    width: 50px;
+    height: 35px;
+    display: flex;
+}
+
+.nav-wrapper > .nav-center-column > .explore-wrapper p{
+    margin-top: 12px;
+    width: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: #e5cd71;
+    justify-content: left;
+}
+.nav-wrapper > .nav-center-column > .nav-center-options-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-wrapper > .nav-center-column > .nav-center-options-wrapper > .nav-link a{
+    color: white;
+    font-weight: 800;
+    font-size: 19px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+/* navigation center spark column */
+
+.nav-link-spark{
+    width: 100px;
+    margin-left: 0px;
+    gap: 5px;
+}
+
+.nav-link-spark > #spark{
+    border: 0px;
+    display: flex;
+    background-color: black;
+    height: 30px;
+    width: 70px;
+    color: grey;
+    filter: brightness(125%);
+    margin-left: 20px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.5s;
+    
+}
+
+
+/* navigation right column */
+
+.nav-wrapper > .nav-right-column {
+    display: flex;
+    width: 500px;
+    height: 50px;
+    justify-content: space-around;
+    margin-top: 6px;
+}
+
+.nav-wrapper > .nav-right-column > .nav-right-options-wrapper {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    margin-left: 0px;
+    justify-content: space-between;
+}
+
+.nav-wrapper > .nav-right-column > .nav-right-options-wrapper > .create-label > #create{
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    background-color: #36383f;
+    height: 50px;
+    width: 110px;
+    color: white;
+    padding-left: 2px;
+    font-weight: 600;
+}
+
+.create-label {
+    position: relative;
+    float: left;
+    min-width: 200px;
+  }
+
+  .create-label:after {
+      content: '\f078';
+      font: normal normal normal 17px/1 FontAwesome;
+      color: #4cce79;
+      right: 11px;
+      top: 6px;
+      height: 34px;
+      padding: 15px 0px 0px 30px;
+      position: absolute;
+      pointer-events: none;
+  }
+    
+.create-label select {
+      appearance: none;      
+      max-width: 320px;
+      float: right;
+      margin: 5px 0px;
+      padding: 0px 24px;
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+
+.nav-wrapper > .nav-right-column > .nav-right-options-wrapper > .search-icon-wrapper > .search-icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.8em;
+    
+}
+
+.nav-wrapper > .nav-right-column > .nav-right-options-wrapper > .search-icon-wrapper > .search-icon i{
+    size: 100px;
+    width: 30px;
+    color: white;
+    opacity: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.nav-right-column > .nav-right-options-wrapper > .log-in-btn {
+    border: 0px;
+    border-radius: 4px;
+    display: flex;
+    background-color: #36383f;
+    height: 50px;
+    width: 100px;
+    color: white;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.nav-right-column > .nav-right-options-wrapper > .log-in-btn a{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.5s;
+    float: right;  
+    justify-content: space-between;
+}
+
+.nav-right-column > .nav-right-options-wrapper > .sign-up-btn {
+    border: 0px;
+    border-radius: 4px;
+    display: flex;
+    background-color: #36383f;
+    height: 50px;
+    width: 100px;
+    color: white;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+
+.nav-right-column > .nav-right-options-wrapper > .sign-up-btn a{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.5s;
+    float: right;  
+}
+

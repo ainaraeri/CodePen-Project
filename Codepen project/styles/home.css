@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.home-body-wrapper{
+    display: flex;
+    background-color: #36383f;
+    background-image: url(../images/backgrounds/black-bg.jpeg); 
+    filter: opacity(250%);
+    filter: contrast(120%);
+    padding: 0px;
+    margin-right: 0px;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* main body left column */
+.home-body-wrapper > .home-body-text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.home-body-wrapper > .home-body-text >.home-body-text-main p{ 
+    color: #e0e1e2;
+    width: 600px;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 36px;
+    opacity: 75%;
+}
+
+
+.home-body-wrapper > .home-body-text >.home-body-text-sub p{ 
+    color: #c5c5c8;
+    width: 600px;
+    font-size: 30px;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 40px;
+    opacity: 50%;
+
+}
+
+/* main body left column butons*/
+
+.home-body-wrapper > .home-body-text > .home-body-btn-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 480px;
+    margin-top: -4px;
+    margin-left: 20px;
+}
+
+.home-body-wrapper > .home-body-text > .home-body-btn-wrapper span a{
+    display: flex;
+    text-align: center;
+    color: #c5c5c8;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+/* main body right column */
+.home-body-wrapper > .home-body-image {
+    width: 40%;
+}
+
+.home-body-wrapper > .home-body-image p{
+    color: #c5c5c8;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.home-body-wrapper > .home-body-image a{
+    color: #67bad3;
+    text-decoration: none;
+}
+
+.home-body-wrapper > .home-body-image img{
+    height: 500px;
+    width: 100%;
+    margin-right: 0px;
+    padding: 0%;
+    filter: contrast(75%);
+}
+
+
+
+
+
